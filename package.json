@@ -1,0 +1,17 @@
+{
+  "name": "nob-talent",
+  "version": "1.0.0",
+  "description": "A static HTML site with Flowbite and DaisyUI",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.0.0",
+    "flowbite": "^1.0.0",
+    "daisyui": "^2.0.0"
+  }
+}
